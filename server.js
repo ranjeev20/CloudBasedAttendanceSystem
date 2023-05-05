@@ -82,7 +82,7 @@ app.post("/Student_register", encodeUrl, (req, res) => {
             };
 
             res.sendFile(
-              __dirname + "/RegistrationForm/Face_Register/index.html"
+              __dirname + "/FaceAuthentication/FaceRegister/index.html"
             );
           }
 
